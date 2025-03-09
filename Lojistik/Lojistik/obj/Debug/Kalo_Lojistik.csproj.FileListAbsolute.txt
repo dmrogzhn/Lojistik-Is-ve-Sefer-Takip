@@ -1,0 +1,57 @@
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Kalo_Lojistik.exe.config
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Kalo_Lojistik.exe
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Kalo_Lojistik.pdb
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroFramework.Design.dll
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroFramework.dll
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroSet UI.dll
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csprojAssemblyReference.cache
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.Form1.resources
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.Properties.Resources.resources
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csproj.GenerateResource.cache
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csproj.CoreCompileInputs.cache
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csproj.CopyComplete
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.exe
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.pdb
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FirstForm.resources
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.SettingsForm.resources
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.yetkiKontrol.resources
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FirstSettings.resources
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FirstYetkiKontrol.resources
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DMR\Desktop\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrSoforEkle.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Kalo_Lojistik.exe.config
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Kalo_Lojistik.exe
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Kalo_Lojistik.pdb
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroFramework.Design.dll
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroFramework.dll
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroFramework.Fonts.dll
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\MetroSet UI.dll
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Newtonsoft.Json.dll
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\bin\Debug\Newtonsoft.Json.xml
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csprojAssemblyReference.cache
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FirstForm.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FirstSettings.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FirstYetkiKontrol.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.Form1.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrSofGuncelleSil.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrSoforEkle.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.Properties.Resources.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.SettingsForm.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.yetkiKontrol.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csproj.GenerateResource.cache
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csproj.CoreCompileInputs.cache
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.csproj.CopyComplete
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.exe
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.pdb
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrIsEkle.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrSoforListesi.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrIsListesi.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrIsGuncelleSil.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrYetkiliEkle.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrYetkiliGuncelleSil.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrYetkiliBilgiGuncelle.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrGidecekSofor.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrSoforSiraDegistir.resources
+D:\Semih Yeniçeri\SemihYeniceri\Kalo_Lojistik\Kalo_Lojistik\obj\Debug\Kalo_Lojistik.FrIsSiraDegistir.resources

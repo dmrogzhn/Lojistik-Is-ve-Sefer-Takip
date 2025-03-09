@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Kalo_LojistikDataSet" targetNamespace="http://tempuri.org/Kalo_LojistikDataSet.xsd" xmlns:mstns="http://tempuri.org/Kalo_LojistikDataSet.xsd" xmlns="http://tempuri.org/Kalo_LojistikDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=DESKTOP-S3S5IBG\SQLEXPRESS;Initial Catalog=Kalo_Lojistik;User ID=sa" IsAppSettingsProperty="false" Modifier="Assembly" Name="desktop-s3s5ibg\sqlexpress.Kalo_Lojistik.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="gidecek_SoforTableAdapter" GeneratorDataComponentClassName="gidecek_SoforTableAdapter" Name="gidecek_Sofor" UserDataComponentName="gidecek_SoforTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="desktop-s3s5ibg\sqlexpress.Kalo_Lojistik.dbo" DbObjectName="Kalo_Lojistik.dbo.gidecek_Sofor" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT sofor_Ad_Soyad FROM dbo.gidecek_Sofor</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="sofor_Ad_Soyad" DataSetColumn="sofor_Ad_Soyad" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Kalo_LojistikDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Kalo_LojistikDataSet" msprop:Generator_UserDSName="Kalo_LojistikDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="gidecek_Sofor" msprop:Generator_TableClassName="gidecek_SoforDataTable" msprop:Generator_TableVarName="tablegidecek_Sofor" msprop:Generator_TablePropName="gidecek_Sofor" msprop:Generator_RowDeletingName="gidecek_SoforRowDeleting" msprop:Generator_RowChangingName="gidecek_SoforRowChanging" msprop:Generator_RowEvHandlerName="gidecek_SoforRowChangeEventHandler" msprop:Generator_RowDeletedName="gidecek_SoforRowDeleted" msprop:Generator_UserTableName="gidecek_Sofor" msprop:Generator_RowChangedName="gidecek_SoforRowChanged" msprop:Generator_RowEvArgName="gidecek_SoforRowChangeEvent" msprop:Generator_RowClassName="gidecek_SoforRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sofor_Ad_Soyad" msprop:Generator_ColumnVarNameInTable="columnsofor_Ad_Soyad" msprop:Generator_ColumnPropNameInRow="sofor_Ad_Soyad" msprop:Generator_ColumnPropNameInTable="sofor_Ad_SoyadColumn" msprop:Generator_UserColumnName="sofor_Ad_Soyad" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

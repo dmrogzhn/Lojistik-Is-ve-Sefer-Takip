@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C549B4C0-CF2F-40A2-9D0C-43E96F2B0108}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lojistik</RootNamespace>
+    <AssemblyName>Lojistik</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroSet UI, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroSet_UI.2.0.0\lib\net45\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="baglanti.cs" />
+    <Compile Include="FirstForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstForm.Designer.cs">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirstSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirstSettings.Designer.cs">
+      <DependentUpon>FirstSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrGidecekSofor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrGidecekSofor.Designer.cs">
+      <DependentUpon>FrGidecekSofor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrIsEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrIsEkle.Designer.cs">
+      <DependentUpon>FrIsEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrIsGuncelleSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrIsGuncelleSil.Designer.cs">
+      <DependentUpon>FrIsGuncelleSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrIsListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrIsListesi.Designer.cs">
+      <DependentUpon>FrIsListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrIsSiraDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrIsSiraDegistir.Designer.cs">
+      <DependentUpon>FrIsSiraDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrSofGuncelleSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrSofGuncelleSil.Designer.cs">
+      <DependentUpon>FrSofGuncelleSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrSoforEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrSoforEkle.Designer.cs">
+      <DependentUpon>FrSoforEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrSoforListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrSoforListesi.Designer.cs">
+      <DependentUpon>FrSoforListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrSoforSiraDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrSoforSiraDegistir.Designer.cs">
+      <DependentUpon>FrSoforSiraDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrYetkiliBilgiGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrYetkiliBilgiGuncelle.Designer.cs">
+      <DependentUpon>FrYetkiliBilgiGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrYetkiliEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrYetkiliEkle.Designer.cs">
+      <DependentUpon>FrYetkiliEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrYetkiliGuncelleSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrYetkiliGuncelleSil.Designer.cs">
+      <DependentUpon>FrYetkiliGuncelleSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="is_Getir.cs" />
+    <Compile Include="Kalo_LojistikDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kalo_LojistikDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="kartOkuma.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sefer_Olustur.cs" />
+    <Compile Include="SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="soforDonusu.cs" />
+    <Compile Include="sofor_Getir.cs" />
+    <Compile Include="yetkiKontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yetkiKontrol.Designer.cs">
+      <DependentUpon>yetkiKontrol.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FirstForm.resx">
+      <DependentUpon>FirstForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirstSettings.resx">
+      <DependentUpon>FirstSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrGidecekSofor.resx">
+      <DependentUpon>FrGidecekSofor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrIsEkle.resx">
+      <DependentUpon>FrIsEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrIsGuncelleSil.resx">
+      <DependentUpon>FrIsGuncelleSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrIsListesi.resx">
+      <DependentUpon>FrIsListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrIsSiraDegistir.resx">
+      <DependentUpon>FrIsSiraDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrSofGuncelleSil.resx">
+      <DependentUpon>FrSofGuncelleSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrSoforEkle.resx">
+      <DependentUpon>FrSoforEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrSoforListesi.resx">
+      <DependentUpon>FrSoforListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrSoforSiraDegistir.resx">
+      <DependentUpon>FrSoforSiraDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrYetkiliBilgiGuncelle.resx">
+      <DependentUpon>FrYetkiliBilgiGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrYetkiliEkle.resx">
+      <DependentUpon>FrYetkiliEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrYetkiliGuncelleSil.resx">
+      <DependentUpon>FrYetkiliGuncelleSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yetkiKontrol.resx">
+      <DependentUpon>yetkiKontrol.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Kalo_LojistikDataSet.xsc">
+      <DependentUpon>Kalo_LojistikDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Kalo_LojistikDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Kalo_LojistikDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Kalo_LojistikDataSet.xss">
+      <DependentUpon>Kalo_LojistikDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
